@@ -1,6 +1,6 @@
-# **Calculator APP**
+# **Calculator APP** 🖩🖩🖩
 
-## **#boraCodar Desafio #05 (rocketseat)**
+## **#boraCodar Desafio #05 (rocketseat)** 🚀
 
 ### A proposta do evento #boraCodar (desafio #05) é desevolver uma calculadora do zero.
 
