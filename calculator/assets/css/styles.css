@@ -6,21 +6,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-:root {
+html {
   font-size: 62.5%;
 }
 
 body {
-  font-family: "Rubik", sans-serif;
-
   display: grid;
   place-items: center;
 
   height: 100vh;
 
   background: linear-gradient(180deg, #807ece 0%, #8e7ece 100%);
+}
+
+body * {
+  font-family: "Rubik", sans-serif;
+  letter-spacing: -0.02em;
 }
 
 #app {

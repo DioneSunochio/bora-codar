@@ -10,3 +10,5 @@
 
 - **Desafio #05 Calculator APP:** 🖩
   - A proposta do evento #boraCodar (desafio #05) é desevolver uma calculadora do zero.
+- **Desafio #06 Boarding Pass:** 🛫
+  - A proposta do evento #boraCodar (desafio #06) é desevolver um cartão de embarque.
