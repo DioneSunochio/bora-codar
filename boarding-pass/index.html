@@ -5,45 +5,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Boarding, Pass, APP">
     <meta name="description" content="Boarding Pass Web APP. Get a new boarding pass with each reloading of the page.">
+    <meta name="author" content="Dione Sunochio">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="./assets/js/scripts.js" defer></script>
     <title>Boarding Pass Web APP</title>
 </head>
 
 <body>
-    <main>
-        <h1>Cartão de embarque</h1>
-        <section class="ticket">
-            <article class="ticket__flight-info">
-                <div class="ticket__details">
-                    <p class="ticket__text--normal">Voo</p>
-                    <p class="ticket__text--normal">Data</p>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__heading">Cartão de embarque</h1>
+        </header>
+        <main class="ticket">
+            <section class="ticket__section ticket__section--s1">
+                <div class="ticket__wrapper-infos">
+                    <div>
+                        <p class="ticket__paragraph">Voo</p>
+                        <p class="ticket__paragraph ticket__paragraph--f1 ticket__paragraph--weight"></p>
+                    </div>
+                    <div>
+                        <p class="ticket__paragraph ticket__paragraph--right">Data</p>
+                        <p class="ticket__paragraph ticket__paragraph--f1 ticket__paragraph--weight"></p>
+                    </div>
                 </div>
-                <div class="ticket__details">
-                    <p class="ticket__text--bold">RS995</p>
-                    <p class="ticket__text--bold">23/05/2023</p>
+                <div class="ticket__wrapper-infos">
+                    <div class="ticket__infos">
+                        <p class="ticket__paragraph"></p>
+                        <p class="ticket__paragraph ticket__paragraph--f2 ticket__paragraph--weight"></p>
+                        <p class="ticket__paragraph ticket__paragraph--f1"></p>
+                    </div>
+                    <figure class="ticket__img--airplane">
+                        <img src="./assets/img/airplane.svg" alt="airplane">
+                    </figure>
+                    <div class="ticket__infos">
+                        <p class="ticket__paragraph ticket__paragraph--right"></p>
+                        <p class="ticket__paragraph ticket__paragraph--f2
+                        ticket__paragraph--weight ticket__paragraph--right"></p>
+                        <p class="ticket__paragraph ticket__paragraph--f1 ticket__paragraph--right"></p>
+                    </div>
                 </div>
-            </article>
-            <article class="ticket__flight-info">
-                <div class="ticket__details">
-                    <p class="ticket__text--normal">São Paulo, Brasil</p>
-                    <p class="ticket__text--normal">São Francisco, EUA</p>
+            </section>
+            <hr class="ticket__divider">
+            <section class="ticket__section ticket__section--s2">
+                <div class="ticket__wrapper-infos">
+                    <div>
+                        <p class="ticket__paragraph">Passageiro</p>
+                        <p class="ticket__paragraph ticket__paragraph--f1 ticket__paragraph--weight"></p>
+                    </div>
+                    <div>
+                        <p class="ticket__paragraph">Assento</p>
+                        <p class="ticket__paragraph ticket__paragraph--f1
+                        ticket__paragraph--weight
+                        ticket__paragraph--right"></p>
+                    </div>
                 </div>
-                <div class="ticket__details">
-                    <p class="ticket__text--bold">GRU</p>
-                    <p class="ticket__text--bold">SFO</p>
+            </section>
+            <hr class="ticket__divider">
+            <section class="ticket__section ticket__section--s3">
+                <div class="ticket__wrapper-infos">
+                    <div class="ticket__infos">
+                        <div class="ticket__infos-pd">
+                            <p class="ticket__paragraph ticket__paragraph--lh">Embarque</p>
+                            <p class="ticket__paragraph ticket__paragraph--f1
+                            ticket__paragraph--weight"></p>
+                        </div>
+                        <div class="ticket__infos-pd">
+                            <p class="ticket__paragraph">Terminal</p>
+                            <p class="ticket__paragraph ticket__paragraph--f1
+                            ticket__paragraph--weight"></p>
+                        </div>
+                        <div class="ticket__infos-pd">
+                            <p class="ticket__paragraph">Portão</p>
+                            <p class="ticket__paragraph ticket__paragraph--f1
+                            ticket__paragraph--weight"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <figure class="ticket__img--qrcode">
+                            <img src="" alt="QR Code" id="qr-code">
+                        </figure>
+                        <p class="ticket__paragraph">Grupo de embarque: </p>
+                    </div>
                 </div>
-                <div class="ticket__details">
-                    <p class="ticket__text--normal">17:00</p>
-                    <p class="ticket__text--normal">04:48¹</p>
-                </div>
-            </article>
-        </section>
-        <section class="ticket"></section>
-        <section class="ticket"></section>
-        <p>Qualquer problema procure o balcão de atendimento da sua companhia aérea</p>
-    </main>
+                <p class="ticket__paragraph ticket__paragraph--f1
+                ticket__paragraph--center"><span class="ticket__paragraph--weight">Atenção:
+                    </span>o portão fecha </p>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__paragraph">Qualquer problema procure o balcão de atendimento da sua companhia aérea</p>
+        </footer>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,58 @@
+{
+  "voo": [
+    {
+      "id": "RS995",
+      "data": "23/05/2023",
+      "boarding": "São Paulo, Brasil",
+      "destiny": "São Francisco, EUA",
+      "boardingAcronym": "GRU",
+      "destinyAcronym": "SFO",
+      "exit": "17:00",
+      "arrival": "04:48",
+      "timeZone": "+1",
+      "passenger": "Dione Sunochio",
+      "seat": "28A",
+      "boardingTime": "16:15",
+      "terminal": "2",
+      "gate": "15",
+      "boardingGroup": "3",
+      "closedGate": "16:45"
+    },
+    {
+      "id": "RS999",
+      "data": "25/06/2023",
+      "boarding": "Rio de Janeiro, Brasil",
+      "destiny": "Nova Iorque, EUA",
+      "boardingAcronym": "RJB",
+      "destinyAcronym": "NIE",
+      "exit": "18:00",
+      "arrival": "05:48",
+      "timeZone": "+2",
+      "passenger": "Maria Heloísa",
+      "seat": "31B",
+      "boardingTime": "17:15",
+      "terminal": "4",
+      "gate": "16",
+      "boardingGroup": "1",
+      "closedGate": "17:45"
+    },
+    {
+      "id": "RS990",
+      "data": "05/08/2023",
+      "boarding": "Manaus, Brasil",
+      "destiny": "California, EUA",
+      "boardingAcronym": "MAB",
+      "destinyAcronym": "CEU",
+      "exit": "15:00",
+      "arrival": "02:48",
+      "timeZone": "+1",
+      "passenger": "Erika Hellen",
+      "seat": "15C",
+      "boardingTime": "14:15",
+      "terminal": "3",
+      "gate": "20",
+      "boardingGroup": "4",
+      "closedGate": "14:45"
+    }
+  ]
+}

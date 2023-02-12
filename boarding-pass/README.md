@@ -10,7 +10,7 @@
 
 ### _Result Overview:_
 
-![Boarding Pass](./assets/img/)
+![Boarding Pass](./assets/img/boarding-pass-web.gif)
 
 ---
 
@@ -18,7 +18,8 @@
 
 ### _Passo a Passo do Projeto (narrativa):_
 
-Como primeiro passo construi o código HTML e CSS baseando-me no design proposto no figma.
+Como primeiro passo construi o código HTML e CSS baseando-me no design proposto no figma. Buscando também aplicar BEM CSS no código e uma estrutura HTML semântica. Utilizando JavaScript adicinei os dado do cartão dinamicamente buscando-os em um arquivo JSON que crie. Para a construção do QR Code utilizei a QR code API tornando o QR code dinamico e carregado ele com um JSON das informação contida no cartão.
+Para finalizar utilizei o media query para construir o segundo design proposto especificando-o para telas menores de 426px.
 
 ---
 
@@ -44,3 +45,4 @@ Para roda no seu navegador basta abrir com a extresão Live Sever do VS Code.
 ### _Links Importantes:_
 
 - https://boracodar.dev/#
+- https://goqr.me/api/
