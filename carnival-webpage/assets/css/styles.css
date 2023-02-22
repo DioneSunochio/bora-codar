@@ -1,0 +1,295 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* GLOBAL RESET */
+*,
+*::before,
+*::after {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+/* BODY DESIGN */
+body * {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+/* HEADER DESIGN */
+header {
+  display: grid;
+  height: 45vmin;
+  position: relative;
+  background-color: #f8f8ff;
+  margin-bottom: 10em;
+}
+
+/* HEADER IMAGE POSITION */
+img[alt="Colored feathers"] {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  z-index: 0;
+}
+
+img[alt="A woman with colored feathers"] {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  z-index: 0;
+}
+
+/* HEADER SEARCH DESIGN */
+#search {
+  margin: 0 auto;
+
+  max-width: 1440px;
+
+  align-self: center;
+  z-index: 1;
+}
+
+/* HEADER H1 DESIGN */
+h1 {
+  margin-inline: 40rem;
+}
+
+h1 > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 > span > span:first-child {
+  margin-bottom: 1.8rem;
+
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #e45858;
+}
+
+h1 > span > span:last-child {
+  margin-bottom: 4rem;
+
+  font-weight: 700;
+  font-size: 4.8rem;
+
+  text-align: center;
+  line-height: 6rem;
+
+  color: #121214;
+}
+
+h1 > span > span > strong {
+  color: #6246ea;
+}
+
+/* HEADER FORM */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+
+  margin-inline: 22rem;
+
+  padding: 4rem;
+
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
+label[for="searchByCity"],
+label[for="chooseOneCity"] {
+  display: flex;
+  align: center;
+  gap: 1.2rem;
+
+  width: 40%;
+
+  padding: 1.2rem 0.8rem 1.2rem 1.4rem;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+
+  background: #f4f4ff;
+  border-radius: 0.5rem;
+  border: none;
+
+  color: #7c7c8a;
+}
+
+label[for="chooseOneCity"] {
+  position: relative;
+}
+
+label[for="searchByCity"] > input {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+
+  width: 100%;
+
+  background: #f4f4ff;
+  border: none;
+
+  outline: none;
+}
+
+label[for="chooseOneCity"] > select {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+
+  width: 100%;
+
+  background: #f4f4ff;
+  border: none;
+
+  outline: none;
+
+  appearance: none;
+}
+
+img[alt="arrow down icon"] {
+  position: absolute;
+  right: 1.2rem;
+
+  pointer-events: none;
+}
+
+form > button {
+  width: 20%;
+
+  padding: 1.2rem 3.2rem;
+
+  background: #6246ea;
+  border-radius: 0.5rem;
+  border: none;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* SECTION DESIGN */
+section {
+  margin: 0 auto;
+
+  width: 80%;
+}
+
+section > div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 4em;
+}
+
+/* H2 SECTION DESIGN */
+h2 {
+  font-family: Roboto;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: 0em;
+}
+
+/* BUTTONS SECTION DESIGN */
+.btns {
+  display: flex;
+  align-items: center;
+
+  padding: 8px;
+
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+
+  background-color: #fff;
+}
+
+.btns > button {
+  padding: 4px 24px;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+
+  background-color: #fff;
+  color: #6246ea;
+}
+
+.btns > .active {
+  background: #6246ea;
+  color: white;
+}
+
+section > div:last-of-type {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 320px));
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.2rem;
+  width: 100%;
+}
+
+article {
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+article > img {
+  padding-bottom: 1.6rem;
+}
+
+article > h3 {
+  padding-inline: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+article > p {
+  padding-inline: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+article > p:last-of-type {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* FOOTER DESIGN */
+footer > p {
+  margin-top: 3.2rem;
+  text-align: center;
+}
