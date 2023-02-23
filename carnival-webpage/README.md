@@ -10,13 +10,7 @@
 
 ### _Result Overview:_
 
-![Webpage]()
-
----
-
-<br>
-
-### _Passo a Passo do Projeto (narrativa):_
+![Webpage](./assets/img/carnaval-2023.gif)
 
 ---
 

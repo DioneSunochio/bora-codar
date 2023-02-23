@@ -25,14 +25,17 @@ body * {
 /* HEADER DESIGN */
 header {
   display: grid;
-  height: 45vmin;
+  height: 53.2rem;
   position: relative;
   background-color: #f8f8ff;
   margin-bottom: 10em;
+  overflow: hidden;
 }
 
 /* HEADER IMAGE POSITION */
 img[alt="Colored feathers"] {
+  width: calc(1vmin * 43);
+
   position: absolute;
   top: 0rem;
   left: 0rem;
@@ -40,6 +43,8 @@ img[alt="Colored feathers"] {
 }
 
 img[alt="A woman with colored feathers"] {
+  width: calc(1vmin * 43);
+
   position: absolute;
   bottom: 0rem;
   right: 0rem;
@@ -48,6 +53,9 @@ img[alt="A woman with colored feathers"] {
 
 /* HEADER SEARCH DESIGN */
 #search {
+  display: grid;
+  place-items: center;
+
   margin: 0 auto;
 
   max-width: 1440px;
@@ -58,7 +66,7 @@ img[alt="A woman with colored feathers"] {
 
 /* HEADER H1 DESIGN */
 h1 {
-  margin-inline: 40rem;
+  max-width: 64.7rem;
 }
 
 h1 > span {
@@ -83,7 +91,6 @@ h1 > span > span:first-child {
 h1 > span > span:last-child {
   margin-bottom: 4rem;
 
-  font-weight: 700;
   font-size: 4.8rem;
 
   text-align: center;
@@ -103,7 +110,7 @@ form {
   align-items: center;
   gap: 2.4rem;
 
-  margin-inline: 22rem;
+  min-width: 120%;
 
   padding: 4rem;
 
@@ -115,10 +122,10 @@ form {
 label[for="searchByCity"],
 label[for="chooseOneCity"] {
   display: flex;
-  align: center;
+  align-items: center;
   gap: 1.2rem;
 
-  width: 40%;
+  width: 37.5%;
 
   padding: 1.2rem 0.8rem 1.2rem 1.4rem;
 
@@ -173,8 +180,6 @@ img[alt="arrow down icon"] {
 }
 
 form > button {
-  width: 20%;
-
   padding: 1.2rem 3.2rem;
 
   background: #6246ea;
@@ -187,6 +192,7 @@ form > button {
 
   text-align: center;
   text-transform: uppercase;
+  white-space: nowrap;
 
   color: #ffffff;
   cursor: pointer;
@@ -253,7 +259,7 @@ h2 {
 section > div:last-of-type {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 320px));
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   justify-content: space-between;
   align-items: center;
   gap: 3.2rem;
@@ -269,6 +275,8 @@ article {
 }
 
 article > img {
+  width: 100%;
+
   padding-bottom: 1.6rem;
 }
 
@@ -292,4 +300,49 @@ article > p:last-of-type {
 footer > p {
   margin-top: 3.2rem;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  h1 > span > span:last-child {
+    font-size: 3rem;
+
+    margin-bottom: 2rem;
+  }
+
+  form {
+    flex-direction: column;
+
+    min-width: 80%;
+  }
+
+  label[for="searchByCity"],
+  label[for="chooseOneCity"] {
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 840px) {
+  section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 660px) {
+  form {
+    background-color: #ffffff66;
+  }
+
+  section > div:last-of-type {
+    justify-content: unset;
+  }
+}
+
+@media (max-width: 580px) {
+  section > div:first-of-type {
+    flex-direction: column;
+  }
 }
