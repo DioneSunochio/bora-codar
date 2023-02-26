@@ -25,3 +25,9 @@
   - A proposta do evento #boraCodar (desafio #07) é desevolver um site para encontrar bloco de carnaval.
 
   <br>
+
+- **Desafio #08 Dashboard:** 📊
+
+  - A proposta do evento #boraCodar (desafio #08) é desevolver um dashboard.
+
+  <br>
